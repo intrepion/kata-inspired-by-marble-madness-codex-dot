@@ -1,6 +1,6 @@
 # Marble Run
 
-An original browser arcade game inspired by Atari Games' *Marble Madness*. Roll through six suspended, scrolling raceways before the clock runs out. Play with the arrow keys or WASD; on touch devices use the on-screen arrows. Pause with Escape or the pause button. Finish a raceway to score points and carry remaining seconds into the next. Falling or touching acid costs three seconds and returns you to a checkpoint. Steelies and bumpers shove the marble; pale ice reduces traction.
+An original browser arcade game inspired by Atari Games' *Marble Madness*. Roll through six winding, suspended, scrolling raceways with narrow bridges and gaps before the clock runs out. Play with the arrow keys or WASD; on touch devices use the on-screen arrows. Pause with Escape or the pause button. Finish a raceway to score points and carry remaining seconds into the next. Build speed while moving forward to jump gaps automatically; a slow approach falls. Falling or touching acid costs three seconds and returns you to a checkpoint. Steelies and bumpers shove the marble; pale ice reduces traction.
 
 ## Run locally
 
