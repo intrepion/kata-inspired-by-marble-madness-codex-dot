@@ -15,3 +15,7 @@ The original's exact course geometry, trackball feel, two-player mode, music, re
 [Return to Oliver's Kata Arcade](https://intrepion.github.io/)
 
 MIT licensed; see LICENSE. Marble Madness is a trademark of its respective owner. This project is not affiliated with or endorsed by Atari.
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
