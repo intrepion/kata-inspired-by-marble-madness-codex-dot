@@ -1,6 +1,49 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-marble-madness-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-marble-madness-codex-dot/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "705d8f32f0083596c94ae9e42f5b222bd808280c803475eec4470dfbed1261d7",
+      "alt": "Marble Run gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "63476c914a5fca354a4eb3721b0f4d2b1b765fbf9b77b57defba9494431b9943",
+        "captureCommit": "5cd9353aa2a0016c5298af3fd932c80a392e4730",
+        "workflowRunId": "41393555547",
+        "inputHashes": {
+          "index.html": "a98ac3d822b23a353c66e67ae4e84128f231452696340c33a582c87e0d570d13",
+          "style.css": "2a6bfb29d8ece38a2793385e37ee121d449b06719bb7449a3580d8f15716f54b",
+          "game.js": "a7ae25ef19c1a6be925512ac54c8b8ee6eaef7fcb1cde846d6f78b626cf48f08",
+          "engine.js": "841ca0404fdc4e962e37c4c7b3da6e0053f19c737860972b3af18be8cad8b6c4"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "0f84c95e0faf5b7ef6ae38c78952e862c7d25df5d6d8fb69152c09d9c9cbf64d"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "2e4acc845da66ee4d9d180dae3badaad5a38ac561f84200ec55a12f5f7909a1e",
+      "alt": "Marble Run gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "74890c90e5fa0c6881690c129b4410f6bcf774c4844a1ebe7cd8f9dc405187cd",
+        "captureCommit": "5cd9353aa2a0016c5298af3fd932c80a392e4730",
+        "workflowRunId": "41393555547",
+        "inputHashes": {
+          "index.html": "a98ac3d822b23a353c66e67ae4e84128f231452696340c33a582c87e0d570d13",
+          "style.css": "2a6bfb29d8ece38a2793385e37ee121d449b06719bb7449a3580d8f15716f54b",
+          "game.js": "a7ae25ef19c1a6be925512ac54c8b8ee6eaef7fcb1cde846d6f78b626cf48f08",
+          "engine.js": "841ca0404fdc4e962e37c4c7b3da6e0053f19c737860972b3af18be8cad8b6c4"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "0f84c95e0faf5b7ef6ae38c78952e862c7d25df5d6d8fb69152c09d9c9cbf64d"
+      }
+    }
+  ]
 }
