@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "4c8f1f4238163ac53be609f5d719d31860d483bc",
+  "sourceCommit": "4c8f1f4238163ac53be609f5d719d31860d483bc",
+  "runId": "41675619012",
+  "url": "http://127.0.0.1:4280/",
+  "inputs": {
+    "index.html": "882d6df0a108b12586899b36ed8df871c3b0af6006ab69fb54072f2fe7651825",
+    "style.css": "2a6bfb29d8ece38a2793385e37ee121d449b06719bb7449a3580d8f15716f54b",
+    "game.js": "af9f1330de2d0d94797f02c85826f84cfa2be36176b29077d7b499bb7bba88ee",
+    "engine.js": "f5d7dd63ea8c7ede52dbb404992cff0ce3749acf72e013bcd74fd060f19521e2"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "marble-01.png",
+    "marble-02.png"
+  ]
+}
