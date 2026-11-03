@@ -13,6 +13,12 @@ export const width=(c,y)=>interpolate(c,y,2);
 export const gapAt=(c,y)=>courses[c].gaps.find(([a,b])=>y>=a&&y<b);
 export function createGame(){return {course:0,x:0,y:1,vx:0,vy:0,time:80,score:0,falls:0,checkpoint:1,state:'ready',invuln:0,elapsed:0,notice:'',airborne:false}}
 export function start(g){if(['ready','over','won'].includes(g.state))Object.assign(g,createGame(),{state:'playing'})}
+// Screen-space drag impulses compensate for the course's oblique projection.
+export function roll(g,dx,dy){
+ if(g.state!=='playing'||!Number.isFinite(dx)||!Number.isFinite(dy))return;
+ g.vx+=(dx-dy*.5)*.035;g.vy+=dy*.06;
+ const speed=Math.hypot(g.vx,g.vy);if(speed>6){g.vx*=6/speed;g.vy*=6/speed;}
+}
 export function step(g,input,dt){if(g.state!=='playing')return;dt=Math.min(dt,.05);g.elapsed+=dt;g.time=Math.max(0,g.time-dt);g.invuln=Math.max(0,g.invuln-dt);if(!g.time){g.state='over';return}
  let c=courses[g.course], ax=(input.right?1:0)-(input.left?1:0),ay=(input.down?1:0)-(input.up?1:0),n=Math.hypot(ax,ay)||1;ax/=n;ay/=n;
  const ice=g.course>=1&&g.y>c.length*.48&&g.y<c.length*.62,drag=ice?.975:.94;
